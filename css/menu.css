@@ -8,15 +8,16 @@ body{
 body{
     background-color: #031d36e2;
 }
-.dropdown-item a{
-    color: #DE7812;
-}
+
 
 .nav-item .nav-link.active{
     background-color: #DE7812;
     color:white;
 }
 .nav-item .nav-link {
+    color:#DE7812; 
+}
+.dropdown-menu{
     color:#DE7812; 
 }
 button.navbar-toggler{
@@ -48,19 +49,19 @@ footer a{
 }
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #3B80C5;
-    --bs-btn-border-color: #3B80C5;
+    --bs-btn-bg:  #c5680a; 
+    --bs-btn-border-color:  #DE7812; 
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #0b5ed7;
-    --bs-btn-hover-border-color: #3B80C5;
+    --bs-btn-hover-bg: #DE7812; 
+    --bs-btn-hover-border-color: #DE7812; 
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #0a58ca;
-    --bs-btn-active-border-color: #3B80C5;
+    --bs-btn-active-bg:  #DE7812; 
+    --bs-btn-active-border-color:  #DE7812; 
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #0d6efd;
-    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-btn-disabled-bg:  #DE7812; 
+    --bs-btn-disabled-border-color:  #DE7812; 
 }
 footer{
     text-align: center;
