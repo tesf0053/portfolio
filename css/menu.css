@@ -8,6 +8,9 @@ body{
 body{
     background-color: #031d36e2;
 }
+.dropdown-menu{
+    color: #DE7812;
+}
 
 .nav-item .nav-link.active{
     background-color: #DE7812;
