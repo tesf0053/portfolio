@@ -1,3 +1,51 @@
 body{
     background-color: #031d36e2;
 }
+.nav-item .nav-link.active{
+    background-color: #DE7812;
+    color:white;
+}
+.nav-item .nav-link {
+    color:#DE7812; 
+}
+button.navbar-toggler{
+    background-color: #DE7812; 
+}
+h1 ,.btm{
+    color: #DE7812; 
+}
+h1.display-2{
+    font-weight: bolder;
+}
+h5.display-6{
+    font-weight: bolder;
+}
+.carousel-caption {
+    background-color:  #DE7812; 
+}
+footer a{
+    color: #DE7812;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3B80C5;
+    --bs-btn-border-color: #3B80C5;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #3B80C5;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #3B80C5;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+.fa-brands{
+    font-size: 25px;
+    color: #DE7812;
+}
+footer{
+    text-align: center;
+}
