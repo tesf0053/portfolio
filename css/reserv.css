@@ -1,0 +1,89 @@
+body{
+    background-color: #031d36e2;
+}
+
+.card{
+    grid-gap: 20px;
+}
+body{
+    background-color: #031d36e2;
+}
+
+.nav-item .nav-link.active{
+    background-color: #DE7812;
+    color:white;
+}
+.nav-item .nav-link {
+    color:#DE7812; 
+}
+button.navbar-toggler{
+    background-color: #DE7812; 
+}
+h1 ,.btm{
+    color: #DE7812; 
+}
+h1.display-2{
+    font-weight: bolder;
+}
+hr{
+    color: #DE7812;    
+}
+h5.display-6{
+    font-weight: bolder;
+}
+.carousel-caption {
+    background-color:  #DE7812; 
+}
+footer a{
+    color: #DE7812;
+}
+
+.card{
+    display: grid;
+    background-color:#ffffff;
+    color:#DE7812;
+}
+label{
+    color:#DE7812;
+}
+.card{
+    margin-bottom: 15px;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #c5680a; 
+    --bs-btn-border-color:  #DE7812; 
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #DE7812; 
+    --bs-btn-hover-border-color: #DE7812; 
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg:  #DE7812; 
+    --bs-btn-active-border-color:  #DE7812; 
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg:  #DE7812; 
+    --bs-btn-disabled-border-color:  #DE7812; 
+}
+.card-body a{
+    text-decoration: none;
+    color: rgb(17, 17, 94);
+}
+.fa-badge-check{
+    color: rgb(6, 207, 19);
+}
+.display-6{
+    color: #DE7812;
+}
+
+footer{
+    text-align: center;
+}
+@media (max-width: 991.98px) { 
+    iframe{
+        display: none;
+    }
+    .col-12{
+        padding-bottom: 10px;
+    }
+}
