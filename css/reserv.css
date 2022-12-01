@@ -39,7 +39,15 @@ h5.display-6{
 footer a{
     color: #DE7812;
 }
-
+.card{
+    transition: 1s ease;
+}
+.card:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2);
+    transition: 1s ease
+}
 .card{
     display: grid;
     background-color:#ffffff;
