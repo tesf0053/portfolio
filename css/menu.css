@@ -40,6 +40,9 @@ h5.display-6{
 .carousel-caption {
     background-color:  #DE7812; 
 }
+#hl-os{
+    display: none;
+}
 footer a{
     color: #DE7812;
 }
@@ -67,4 +70,12 @@ footer a{
 }
 footer{
     text-align: center;
+}
+@media (max-width: 991.98px) { 
+    .col{
+        display: none;
+    }
+    #hl-os{
+        display: grid;
+    }
 }
