@@ -102,10 +102,4 @@ footer{
     .col-12{
         padding-bottom: 10px;
     }
-    .nav-item:hover{
-        display: none;
-    }
-    .card:hover{
-        display: none;
-    }
 }

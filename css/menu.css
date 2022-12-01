@@ -92,10 +92,5 @@ footer{
     #hl-os{
         display: grid;
     }
-    .nav-item:hover{
-        display: none;
-    }
-    .card:hover{
-        display: none;
-    }
+    
 }
