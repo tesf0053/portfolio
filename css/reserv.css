@@ -43,10 +43,8 @@ footer a{
     transition: 1s ease;
 }
 .card:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2); 
-    transform: scale(1.2);
-    transition: 1s ease
+    transform: scale(1.3) rotateZ(-10deg);
+    transition: 1s ease;
 }
 .card{
     display: grid;
