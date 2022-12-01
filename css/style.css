@@ -8,6 +8,13 @@ body{
 .nav-item .nav-link {
     color:#DE7812; 
 }
+.nav-item{
+    transition: 1s ease;
+}
+.nav-item:hover{
+    box-shadow: 0 0 0 1px #DE7812;
+    transition: .5s ease;
+}
 button.navbar-toggler{
     background-color: #DE7812; 
 }
