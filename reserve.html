@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blue Nile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/membership.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <script src="https://kit.fontawesome.com/12a9e1b391.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="images/logo-1.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item px-4">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-4" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MENU</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="menu.html">Dish</a></li>
+                  <li><a class="dropdown-item" href="etdish.html">Ethiopian Dish</a></li>
+                  <li><a class="dropdown-item" href="dessert.html">Dessert</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- header -->
+      <div class="text-center">
+        <h1  class="animate__animated animate__bounce animate__delay-2s">Reservation</h1><hr>
+        <p class="btm">Please reserve before you will come in-person</p>
+      </div>
+      <!-- header end -->
+      <!-- section -->
+      <form class="row g-3">
+        <div class="col-md-6">
+            <label for="inputName4" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="John" required>
+          </div>
+          <div class="col-md-6">
+            <label for="inputLastName4" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="Daniel">
+          </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="abc@gmail.com" required>
+        </div>
+        <div class="col-md-6">
+          <label for="start"  class="form-label">Start date:</label>
+          <input type="date"  class="form-control" id="start" name="trip-start" value="2018-07-22" min="2022-01-01" max="2023-12-31">
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary">Reserve</button>
+        </div>
+      </form>
+            <!-- section end -->  
+            <hr>
+            <h3 class="display-6 px-4">Customrs' Reviews</h3>  
+            <!-- start review grid -->
+            <div class="container text-center"><hr>
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/r-1.jpg" class="card-img-top" alt="image of person">
+                        <div class="card-body">
+                          <h5 class="card-title">Daniel T.</h5>
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                          <p class="card-text">What a wonderful servie and dishes you have. Thank you Blue NIle!</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/r-2.jpg" class="card-img-top" alt="image of person">
+                        <div class="card-body">
+                          <h5 class="card-title">Mariam D.</h5>
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                          <p class="card-text">Wow! I had good time in Blue NIle. and I tried diffrent cultures dishes. </p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/r-3.jpg" class="card-img-top" alt="image of person">
+                        <div class="card-body">
+                          <h5 class="card-title">Samuel T.</h5>
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                          <p class="card-text">Great!Happy to got my cultural rasturant in Ottawa</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <!-- end -->
+        <footer>
+          <div class="row text-center p-5">
+            <div class="icon">
+              <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram  px-4"></i></a>
+              <a href="https://www.whatsapp.com/accounts/login/"><i class="fa-brands fa-whatsapp  px-4"></i></a>
+              <a href="https://www.facebook.com/accounts/login/"><i class="fa-brands fa-facebook  px-4"></i></a>
+            </div>           
+          </div>
+          <p class="btm">Copyright &copy; Blue Nile 2022, Design By <a href="https://www.linkedin.com/in/samuel-tesfaye-65b7a0227">Samuel Tesfaye</a></p>
+       </footer>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>
