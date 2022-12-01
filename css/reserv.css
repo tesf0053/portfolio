@@ -49,9 +49,7 @@ label{
 .card{
     margin-bottom: 15px;
 }
-img{
-    border-radius: 50%;
-}
+
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg:  #c5680a; 
