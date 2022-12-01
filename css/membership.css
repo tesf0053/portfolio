@@ -65,6 +65,13 @@ label{
     --bs-btn-disabled-bg:  #DE7812; 
     --bs-btn-disabled-border-color:  #DE7812; 
 }
+.card-body a{
+    text-decoration: none;
+    color: rgb(17, 17, 94);
+}
+.fa-badge-check{
+    color: rgb(6, 207, 19);
+}
 
 footer{
     text-align: center;
