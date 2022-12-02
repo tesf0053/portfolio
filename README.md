@@ -2,12 +2,12 @@
 
 ## Process
 
-Before I start writeing a code I was design my web page adobed xd and finshed everthing inside thir including the interactions. After that I created git respositor and project folders and file. byt following my xd design and using bootstrap framwork I build this personal busiiness site.
+Before writing the code, I designed my web page in Adobe XD and finished everything inside them, including the interactions. After that, I created a git repository, project folders and files, and then cloned with VS code editor. I built this personal business site by following my XD design and using the bootstrap framework and customized CSS.
 
 
 ## Challege
 
-In first time, knowing the bootstrap class name was the very chalegeing part.Also customizing the color and ohter staff was challeging part. And I overcome this challege by practive more, revised class recoreding video and learned from others external websites. 
+At first, time, knowing the bootstrap class name was the very challenging part. Also, customizing the colour and other staff was a difficult part. And I overcame this challenge by practicing more, revising class recording videos and learning from other external websites. 
 
 ## Assets
 For this project I used;
