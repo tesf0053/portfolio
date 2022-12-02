@@ -36,7 +36,7 @@ h5.display-6{
 footer a{
     color: #DE7812;
 }
-.btn-primary {
+.btn{
     --bs-btn-color: #fff;
     --bs-btn-bg:  #c5680a; 
     --bs-btn-border-color:  #DE7812; 
