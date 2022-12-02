@@ -37,6 +37,8 @@ h1 ,.btm{
 }
 h1.display-2{
     font-weight: bolder;
+}
+.animate__animated{
     font-family: 'Satisfy', cursive;
 }
 .card{
