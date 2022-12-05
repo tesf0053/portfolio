@@ -14,6 +14,6 @@ For this project I used;
 
 -[Bootstrap Framework](https://getbootstrap.com/)
 -[Animation CSS](https://animate.style/)
--[Free cakes, food and person images](https://www.pexels.com/royalty-free-images/)
+-[All image in this website are free and get the image from pexel royality free image](https://www.pexels.com/royalty-free-images/)
 -[Fonts](https://fonts.google.com/knowledge)
 -[Icons](https://fontawesome.com/icons)
