@@ -61,8 +61,11 @@ h5.display-6{
     display: none;
 }
 .bh{
+    display: flex;
+    justify-self: end;
     text-decoration: none;
     color: #c5680a;
+    
 }
 footer a{
     color: #DE7812;
